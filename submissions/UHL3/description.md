@@ -36,5 +36,5 @@ regularization strength).
 
 ## References
 
-- S. Uhlich, M. Porcu, F. Giron, M. Enenkl, T. Kemp, N. Takahashi and Y. Mitsufuji. "Improving music source separation based on deep neural networks through data augmentation and network blending", Proc. ICASSP, 2017.
-- A. A. Nugraha, A. Liutkus, and E. Vincent. "Multichannel music separation with deep neural networks." EUSIPCO, 2016.
+- [1] S. Uhlich, M. Porcu, F. Giron, M. Enenkl, T. Kemp, N. Takahashi and Y. Mitsufuji. "Improving music source separation based on deep neural networks through data augmentation and network blending", Proc. ICASSP, 2017.
+- [2] A. A. Nugraha, A. Liutkus, and E. Vincent. "Multichannel music separation with deep neural networks." EUSIPCO, 2016.

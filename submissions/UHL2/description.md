@@ -26,9 +26,9 @@ UHL1 and the second system is another set of four networks trained on
 `musdb` with different random seeds. We linearly blend the raw outputs of the
 two systems using
 
-$$\hat{s}_i(n) = 0.5 * ( \hat{s}_{i, 1}(n) + \hat{s}_{i, 2}(n)$$
+`$$\hat{s}_i(n) = 0.5 * ( \hat{s}_{i, 1}(n) + \hat{s}_{i, 2}(n)$$`
 
-where $i = \{`B`, `D`, `O`, `V`\}$. From these estimates, we then compute the
+where `$i = \{`B`, `D`, `O`, `V`\}$`. From these estimates, we then compute the
 power spectral densities and spatial covariance matrices of the multichannel
 Wiener filter [2].
 

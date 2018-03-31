@@ -1,7 +1,7 @@
 # UHL3
 Stefan Uhlich¹, Franck Giron¹, Michael Enenkl¹, Thomas Kemp¹, Naoya Takahashi², Yuki Mitsufuji²
 
-¹Sony European Technology Center (EuTEC), Stuttgart, Germany
+¹Sony European Technology Center (EuTEC), Stuttgart, Germany<br/>
 ²Sony Corporation, Audio Technology Development Department, Tokyo, Japan
 
 stefan.uhlich (at) eu.sony.com

@@ -1,4 +1,4 @@
-# UHL1
+# UHL3
 Stefan Uhlich¹, Franck Giron¹, Michael Enenkl¹, Thomas Kemp¹, Naoya Takahashi², Yuki Mitsufuji²
 
 ¹Sony European Technology Center (EuTEC), Stuttgart, Germany
@@ -9,7 +9,7 @@ stefan.uhlich (at) eu.sony.com
 ## Additional Info
 
 * __is_blind:__ no
-* __additional_training_data:__ no
+* __additional_training_data:__ yes
 
 
 ## Supplemental Material
@@ -28,9 +28,9 @@ output of each network is then combined by a multichannel Wiener filter as
 described in [2] where we estimate the power spectral densities and spatial
 covariance matrices from the DNN outputs.
 
-The network is trained on `musdb` where we split `train` into `train_train`
-and `train_valid` with 86 and 14 songs, respectively. The validation set is
-used to perform early stopping and hyperparameter selection (dropout rate,
+The network is trained on an internal database with 804 songs. We used the
+full `train` part of `musdb` as validation set, which is again used to
+perform early stopping and hyperparameter selection (dropout rate,
 regularization strength).
 
 

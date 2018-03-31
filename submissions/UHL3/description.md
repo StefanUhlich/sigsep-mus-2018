@@ -30,8 +30,8 @@ covariance matrices from the DNN outputs.
 
 The network is trained on an internal database with 804 songs. We used the
 full `train` part of `musdb` as validation set, which is again used to
-perform early stopping and hyperparameter selection (dropout rate,
-regularization strength).
+perform early stopping and hyperparameter selection (LSTM layer dropout
+rate, regularization strength).
 
 
 ## References

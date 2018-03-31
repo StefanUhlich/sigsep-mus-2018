@@ -30,8 +30,8 @@ covariance matrices from the DNN outputs.
 
 The network is trained on `musdb` where we split `train` into `train_train`
 and `train_valid` with 86 and 14 songs, respectively. The validation set is
-used to perform early stopping and hyperparameter selection (dropout rate,
-regularization strength).
+used to perform early stopping and hyperparameter selection (LSTM layer dropout
+rate, regularization strength).
 
 
 ## References
